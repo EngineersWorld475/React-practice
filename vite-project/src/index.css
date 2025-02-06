@@ -1,0 +1,95 @@
+body {
+  
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav_contents {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+  margin-right: 20px;
+}
+.content_container {
+  margin-left: 20px;
+}
+.heading {
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 600px;
+}
+.content {
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+ /* Task 2 */
+
+.travelpage_container {
+  display: flex;
+  padding: 20px 30px;
+}
+.travel_place_img_container{
+  width: 200px;
+  height: 300px;
+  overflow: hidden;
+}
+.travel_place_img_container img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.content_container {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+.location_details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.location_details p {
+  color: rgb(116, 112, 112);
+  font-size: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 3px;
+  letter-spacing: 2px;
+}
+.location_details a {
+  color: rgb(180, 174, 174);
+  font-size: 12px;
+  margin-left: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.location_content h1{
+  margin-top: 5px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.duration {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.details {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(99, 96, 96);
+}
+.tourist_locations {
+  display: flex;
+  flex-direction: column;
+}
