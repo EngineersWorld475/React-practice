@@ -1,0 +1,14 @@
+1. What does the '.map()' array method do?
+Returns a new array. whatever gets returned from the callback function provided is placed at the same index in the new array. Usually we take the items from the original array and modify them in some way.
+
+2. What do we usually use '.map()' for in React()?
+Convert an array of raw data into an array of JSX elements that can be displayed on the page.
+
+3. what is conditional rendering?
+when we want to only sometimes display something on the page based on some kind of condition. 
+
+4. when would you use &&?
+when you want to either display something or NOT display something.
+
+3. when would you use ternary?
+when you need to decide which of two things to display.

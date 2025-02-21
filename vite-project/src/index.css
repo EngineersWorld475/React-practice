@@ -93,3 +93,102 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+ /* Chef claude */
+
+ .chef_main_page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+ }
+
+.chef_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  box-shadow: rgb(230, 223, 223);
+  height: 80px;
+}
+.chef_header h3 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.chef_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  gap: 10px;
+  padding: 30px 100px;
+}
+.chef_form input {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  flex-grow: 1;
+  min-width: 150px;
+}
+.chef_form input:focus {
+  outline: none;
+  border: none;
+}
+.chef_form button {
+  padding: 15px 40px;
+  background-color: #141413;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  transition: 2s background-color;
+}
+.chef_form button:hover {
+  background-color: rgb(65, 60, 60);
+}
+.chef_form button::before {
+  content: '+';
+  margin-right: 5px;
+}
+.ingredients_list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.ingredients_heading {
+  margin-left: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+.get_recipe_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  margin: 50px 100px;
+  padding: 10px 20px;
+  width: 500px;
+  gap: 110px;
+  background-color: rgb(210, 212, 211);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 200;
+}
+.get_recipe_section button {
+  padding: 10px 15px;
+  border: none;
+  background-color: orangered;
+  color: white;
+  font-weight: 300;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 2s background-color;
+}
+.get_recipe_section button:hover {
+  background-color: green;
+}
